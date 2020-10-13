@@ -8,18 +8,22 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url('../images/apple-pie.jpg');
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 52em;
+    height: 100%;
 }
 
 h1{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     font-size: 5em;
     font-weight: lighter;
     font-family: 'Commissioner', sans-serif;
+    margin-top: 25%;
+    margin-bottom: 25%;
 }
 
 .top-section-text{
@@ -27,8 +31,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 15em;
-    margin-top: 40px;
+    height: 20em;
 }
 
 .about-text {
