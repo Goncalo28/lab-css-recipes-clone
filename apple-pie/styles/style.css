@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    margin-bottom: 5em;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 52em;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 5em;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.top-section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15em;
+    margin-top: 40px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+#recipe-info-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    height: 22em;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+
+.cooking-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#cooking-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 30%;
+}
+
+.directions{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    height: 30 em;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+li {
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+h2 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    list-style: none;
+}
+
+
